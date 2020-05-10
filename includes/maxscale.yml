@@ -16,7 +16,6 @@
       packages:
       - '{{ git }}'
       - '{{ mariadb_client }}'
-      - '{{ mysql_python }}'
       - '{{ nano }}'
 
   - name: "Installing MaxScale"
